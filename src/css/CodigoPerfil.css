@@ -1,0 +1,43 @@
+body {
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove preenchimento padrão */
+    /*background-image: url(../src/img/Pagina-aberta-Ian/Imagem-desfocada-de-fundo.png);*/
+    background-size: cover; /* Cobrir toda a tela */
+    background-position: center; /* Centralizar a imagem de fundo */
+    font-family: Arial, sans-serif; /* Define uma fonte padrão */
+    height: 100vh; /* Garante que o corpo ocupe toda a altura da viewport */
+}
+
+.perfil-imagem {
+    position: relative; /* Torna os elementos filhos posicionados relativamente a este */
+    width: 50%; /* Faz com que a div ocupe toda a largura da tela */
+    top: 100px;
+    left: 25%;
+}
+
+.close-icon-1 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 80px;
+    z-index: 1; /* Garante que o ícone fique acima da imagem de perfil */
+}
+
+.card-do-membro-completo-1 {
+    width: 100%;
+    height: 100%;
+}
+
+.redes {
+    position: absolute;
+    bottom: 10px;
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translateX(-50%); /* Corrige a posição após a centralização */
+}
+
+.instagram-icon,
+.linkedin-icon {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px; /* Adiciona um espaço entre os ícones */
+}
